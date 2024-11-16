@@ -1,0 +1,15 @@
+cc_library(
+    name = "boost.msm",
+    srcs = [],
+    hdrs = glob(["include/**/*.hpp"]) + glob(["include/**/*.ipp"]),
+    visibility = ["//visibility:public"],
+    strip_include_prefix = "include",
+    deps = [
+        "@boost.core//:boost.core",
+        "@boost.mpl//:boost.mpl",
+        "@boost.fusion//:boost.fusion",
+        "@boost.any//:boost.any",
+        "@boost.serialization//:boost.serialization",
+        "@boost.parameter//:boost.parameter",
+    ],
+)

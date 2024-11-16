@@ -1,0 +1,13 @@
+module(
+    name = "boost.msm",
+    version = "1.83.0",
+    bazel_compatibility = [">=7.2.1"],
+    compatibility_level = 108300,
+)
+
+bazel_dep(name = "boost.core", version = "1.83.0")
+bazel_dep(name = "boost.mpl", version = "1.83.0")
+bazel_dep(name = "boost.fusion", version = "1.83.0")
+bazel_dep(name = "boost.any", version = "1.83.0")
+bazel_dep(name = "boost.serialization", version = "1.83.0")
+bazel_dep(name = "boost.parameter", version = "1.83.0")
