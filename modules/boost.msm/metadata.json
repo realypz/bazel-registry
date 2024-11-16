@@ -1,0 +1,17 @@
+{
+    "homepage": "http://boost.org/libs/msm",
+    "maintainers": [
+        {
+            "email": "yang.peizheng@outlook.com",
+            "github": "realypz",
+            "name": "Yang, Peizheng"
+        }
+    ],
+    "repository": [
+        "github:boostorg/msm"
+    ],
+    "versions": [
+        "1.83.0"
+    ],
+    "yanked_versions": {}
+}
